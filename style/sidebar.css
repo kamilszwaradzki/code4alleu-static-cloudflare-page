@@ -1,0 +1,16 @@
+@media (min-width: 481px){
+    #lang-cont {
+    position: fixed;
+    left: 70%;
+    top: 10px;
+    z-index: 1;
+    }
+}
+@media (max-width: 480px) {
+    #lang-cont {
+    position: fixed;
+    left: 20%;
+    top: 10px;
+    z-index: 1;
+    }
+}

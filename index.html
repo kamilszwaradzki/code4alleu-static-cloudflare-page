@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code4All - Kamil Szwaradzki</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style/sidebar.css">
+    <link rel="stylesheet" href="style/mainstyles.css">
+    <style>
+        #profile-img { object-fit: cover; object-position: 100% 80%; }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+
+            <!-- Sidebar -->
+            <!-- Sidebar - poprawiona wersja -->
+            <div class="d-none d-md-block col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-black min-vh-100 sticky-top">
+                    <!-- Selektor języka -->
+                    <div id="lang-cont" class="mb-3">
+                        <label id="lang-label" for="language">Język</label>
+                        <select id="language" class="form-select form-select-sm w-auto">
+                            <option value="pl" selected>Polski</option>
+                            <option value="en">English</option>
+                            <option value="de">Deutsch</option>
+                            <option value="fr">Français</option>
+                        </select>
+                    </div>
+                    <!-- Logo + nazwa -->
+                    <div class="d-flex flex-column align-items-center align-items-sm-start pb-3 mb-3">
+                        <a href="index.html">
+                            <img src="img/logo_c4a.png" class="img-fluid mb-2" id="logo-c4a" style="max-height: 70px;">
+                        </a>
+                        <a href="index.html" class="navbar-brand border fs-5 text-center text-sm-start px-3 py-1">
+                            <span class="bg-dark text-white">Czarno</span> na białym
+                        </a>
+                    </div>
+
+                    <!-- Menu -->
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start w-100" id="menu">
+                        <li class="nav-item w-100 mb-1">
+                            <a href="index.html" class="btn btn-outline-dark fs-4 border border-0 align-middle px-2 w-100 text-start rounded-pill active">
+                                <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item w-100 mb-1">
+                            <a href="contact.html" class="btn btn-outline-dark fs-4 border border-0 px-2 align-middle w-100 text-start rounded-pill">
+                                <i class="fs-4 bi-telephone-outbound"></i> <span class="ms-1 d-none d-sm-inline">Kontakt</span>
+                            </a>
+                        </li>
+                        <li class="nav-item w-100 mb-1">
+                            <a href="about.html" class="btn btn-outline-dark fs-4 border border-0 px-2 align-middle w-100 text-start rounded-pill">
+                                <i class="fs-4 bi-person-raised-hand"></i> <span class="ms-1 d-none d-sm-inline">O mnie</span>
+                            </a>
+                        </li>
+                        <li class="nav-item w-100 mb-1">
+                            <a href="portfolio.html" class="btn btn-outline-dark fs-4 border border-0 px-2 align-middle w-100 text-start rounded-pill">
+                                <i class="fs-4 bi-git"></i> <span class="ms-1 d-none d-sm-inline">Realizacje</span>
+                            </a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="rates.html" class="btn btn-outline-dark fs-4 border border-0 px-2 align-middle w-100 text-start rounded-pill">
+                                <i class="fs-4 bi-coin"></i> <span class="ms-1 d-none d-sm-inline">Cennik</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Główna treść -->
+            <div class="col py-4 px-5">
+                <div class="container-fluid m-auto">
+                    <div class="row row flex-column-reverse flex-md-row">
+                        <div class="col-12 col-md-8 py-4 px-5">
+                            <div class="fs-1 pb-4">Cześć, mam na imię Kamil!</div>
+                            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/hangman-miniaturka.png" class="d-block m-auto w-75" alt="Hangman">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/todolist-laravel.png" class="d-block w-100" alt="Todolist">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/JobApps.png" class="d-block m-auto w-75" alt="JobApps">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pe-0">
+                            <div style="position:relative;">
+                                <div id="exp-tag" style="position:absolute; bottom:0; right:30%; background:black; color:white; padding:10px; border-radius:10px;">
+                                    <h1>3+</h1> lat doświadczenia
+                                </div>
+                                <img src="img/bg_profile_with_img.jpg" alt="Profile" style="border-bottom-right-radius: 40%; border-bottom-left-radius: 40%; width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto fs-4">
+                            Jestem programistą od przeszło dwóch i pół lat!<br>
+                            Na codzień pracuję w PHP, Symfony, Laravel. Znam też React, Vue.js, Backbone.js.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
