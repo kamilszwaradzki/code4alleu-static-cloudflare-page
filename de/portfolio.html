@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Code4All</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../style/sidebar.css">
+    <link rel="stylesheet" href="../style/mainstyles.css">
+    <link rel="stylesheet" href="../style/portfolio.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+
+            <!-- Sidebar -->
+            <div class="d-none d-md-block col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-black min-vh-100 sticky-top">
+                    <!-- Sprachauswahl -->
+                    <div id="lang-cont" class="mb-3">
+                        <label id="lang-label" for="language">Sprache</label>
+                        <select id="language" class="form-select form-select-sm w-auto">
+                            <option value="pl">Polski</option>
+                            <option value="en">English</option>
+                            <option value="de" selected>Deutsch</option>
+                            <option value="fr">Français</option>
+                        </select>
+                    </div>
+                    <div class="d-flex flex-column align-items-center align-items-sm-start pb-3 mb-3">
+                        <a href="index.html">
+                            <img src="../img/logo_c4a.png" class="img-fluid mb-2" style="max-height: 70px;">
+                        </a>
+                        <a href="index.html" class="navbar-brand border fs-5 text-center text-sm-start px-3 py-1">
+                            <span class="bg-dark text-white">Czarno</span> na białym
+                        </a>
+                    </div>
+                    <ul class="nav nav-pills flex-column w-100" id="menu">
+                        <li class="nav-item w-100 mb-1"><a href="index.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Start</span></a></li>
+                        <li class="nav-item w-100 mb-1"><a href="contact.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-telephone-outbound"></i> <span class="ms-1 d-none d-sm-inline">Kontakt</span></a></li>
+                        <li class="nav-item w-100 mb-1"><a href="about.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-person-raised-hand"></i> <span class="ms-1 d-none d-sm-inline">Über mich</span></a></li>
+                        <li class="nav-item w-100 mb-1"><a href="portfolio.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill active"><i class="fs-4 bi-git"></i> <span class="ms-1 d-none d-sm-inline">Portfolio</span></a></li>
+                        <li class="nav-item w-100"><a href="rates.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-coin"></i> <span class="ms-1 d-none d-sm-inline">Preise</span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Portfolio-Inhalt -->
+            <div class="col py-4 px-5">
+                <div class="row my-5 text-center">
+                    <div class="col">
+                        <div class="badge text-bg-dark fs-1 fw-bold">Meine Projekte</div>
+                    </div>
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/hangman-miniaturka.png" class="card-img-top" alt="Hangman">
+                            <div class="card-body">
+                                <h5 class="card-title">Hangman</h5>
+                                <p class="card-text">Das Programm wählt zufällig ein Wort aus einer Datei, der Nutzer errät die Buchstaben. Für jeden falsch geratenen Buchstaben wird ein weiterer Teil eines Gehängten gezeichnet. Ist die Zeichnung fertig, bevor das Wort erraten wurde, verliert der Spieler.</p>
+                                <a href="https://github.com/kamilszwaradzki/Hangman" target="_blank" class="btn btn-dark btn-sm">Code ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/todolist-laravel.png" class="card-img-top" alt="ToDoList">
+                            <div class="card-body">
+                                <h5 class="card-title">ToDoList Laravel</h5>
+                                <p class="card-text">Das Programm ermöglicht die Verwaltung einer Aufgabenliste. Ein einfaches CRUD.</p>
+                                <a href="https://github.com/kamilszwaradzki/ToDoList" target="_blank" class="btn btn-dark btn-sm">Code ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/JobApps.png" class="card-img-top" alt="JobApps">
+                            <div class="card-body">
+                                <h5 class="card-title">JobApps</h5>
+                                <p class="card-text">Eine Anwendung zur Verwaltung versendeter Bewerbungen. Sie ermöglicht das Filtern und Sortieren nach Spalten sowie das jederzeitige Ändern von Status.</p>
+                                <a href="https://github.com/kamilszwaradzki/awesome-compose/tree/master/react-express-mongodb" target="_blank" class="btn btn-dark btn-sm">Code ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/PowerPlant.png" class="card-img-top" alt="PowerPlant">
+                            <div class="card-body">
+                                <h5 class="card-title">PowerPlant</h5>
+                                <p class="card-text">Die Anwendung simuliert den Betrieb von 20 Stromgeneratoren, die in kurzen Abständen Daten senden. Die Daten werden in einer MongoDB-Datenbank gespeichert, und einmal täglich wird ein Bericht mit der durchschnittlich erzeugten Leistung jedes Generators pro Stunde erstellt.</p>
+                                <a href="https://github.com/kamilszwaradzki/PowerPlant" target="_blank" class="btn btn-dark btn-sm">Code ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/chat-miniaturka.png" class="card-img-top" alt="ChatBetweenUsers">
+                            <div class="card-body">
+                                <h5 class="card-title">ChatBetweenUsers</h5>
+                                <p class="card-text">Die App ermöglicht den Chat mit einem anderen authentifizierten Nutzer.</p>
+                                <a href="https://github.com/kamilszwaradzki/ChatBetweenUsers" target="_blank" class="btn btn-dark btn-sm">Code ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/WzorceProjektowe.png" class="card-img-top" alt="Design Patterns in PHP">
+                            <div class="card-body">
+                                <h5 class="card-title">Design Patterns in PHP</h5>
+                                <p class="card-text">Meine Implementierungen von Design Patterns in PHP nach dem Buch "Head First! Design Patterns", 1. Auflage.</p>
+                                <a href="https://github.com/kamilszwaradzki/WzorceProjektowe" target="_blank" class="btn btn-dark btn-sm">Code ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5">
+                    <a href="https://github.com/kamilszwaradzki?tab=repositories" target="_blank" class="btn btn-outline-secondary btn-lg">Alle Projekte auf GitHub ansehen</a>
+                </div>
+
+                <footer class="text-center mt-5">Copyright © 2023-2025 Kamil Szwaradzki</footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
