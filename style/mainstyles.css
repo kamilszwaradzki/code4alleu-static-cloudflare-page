@@ -13,6 +13,26 @@
     --accent-soft: #eaf1ff;
 }
 
+/* Decorative accent blob behind the homepage profile photo. Peeks out to
+   the bottom-right only (not the top) - the photo sits close to the top
+   of the viewport in this layout, so any upward offset pushed the blob
+   past the top of the page. */
+.profile-shape-wrap::before {
+    content: "";
+    position: absolute;
+    top: 6%;
+    left: 4%;
+    right: -6%;
+    bottom: 0%;
+    background: var(--accent);
+    border-radius: 50%;
+    z-index: 0;
+}
+.profile-shape-wrap img {
+    position: relative;
+    z-index: 1;
+}
+
 * {
     margin: 0;
     padding: 0;
