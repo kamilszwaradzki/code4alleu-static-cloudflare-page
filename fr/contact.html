@@ -11,12 +11,25 @@
     <link rel="stylesheet" href="../style/contact.css">
 </head>
 <body>
+    <nav class="navbar d-md-none bg-light border-bottom px-3 sticky-top">
+        <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
+            <i class="bi-list fs-4"></i>
+        </button>
+        <a href="index.html" class="navbar-brand ms-2">
+            <img src="../img/logo_c4a.png" style="max-height: 40px;">
+        </a>
+    </nav>
+
     <div class="container-fluid">
         <div class="row flex-nowrap">
 
             <!-- Barre latérale -->
-            <div class="d-none d-md-block col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
-                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-black min-vh-100 sticky-top">
+            <div class="offcanvas-md offcanvas-start col-md-3 col-xl-2 px-sm-2 px-0 bg-light" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
+                <div class="offcanvas-header d-md-none">
+                    <h5 class="offcanvas-title" id="sidebarMenuLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-black min-vh-100 sticky-top">
                     <!-- Sélecteur de langue -->
                     <div id="lang-cont" class="mb-3">
                         <label id="lang-label" for="language">Langue</label>
@@ -36,11 +49,11 @@
                         </a>
                     </div>
                     <ul class="nav nav-pills flex-column w-100" id="menu">
-                        <li class="nav-item w-100 mb-1"><a href="index.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Accueil</span></a></li>
-                        <li class="nav-item w-100 mb-1"><a href="contact.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill active"><i class="fs-4 bi-telephone-outbound"></i> <span class="ms-1 d-none d-sm-inline">Contact</span></a></li>
-                        <li class="nav-item w-100 mb-1"><a href="about.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-person-raised-hand"></i> <span class="ms-1 d-none d-sm-inline">À propos</span></a></li>
-                        <li class="nav-item w-100 mb-1"><a href="portfolio.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-git"></i> <span class="ms-1 d-none d-sm-inline">Portfolio</span></a></li>
-                        <li class="nav-item w-100"><a href="rates.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-coin"></i> <span class="ms-1 d-none d-sm-inline">Tarifs</span></a></li>
+                        <li class="nav-item w-100 mb-1"><a href="index.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-house"></i> <span class="ms-1">Accueil</span></a></li>
+                        <li class="nav-item w-100 mb-1"><a href="contact.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill active"><i class="fs-4 bi-telephone-outbound"></i> <span class="ms-1">Contact</span></a></li>
+                        <li class="nav-item w-100 mb-1"><a href="about.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-person-raised-hand"></i> <span class="ms-1">À propos</span></a></li>
+                        <li class="nav-item w-100 mb-1"><a href="portfolio.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-git"></i> <span class="ms-1">Portfolio</span></a></li>
+                        <li class="nav-item w-100"><a href="rates.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-coin"></i> <span class="ms-1">Tarifs</span></a></li>
                     </ul>
                 </div>
             </div>

@@ -1,16 +1,15 @@
-@media (min-width: 481px){
-    #lang-cont {
-    position: fixed;
-    left: 70%;
-    top: 10px;
-    z-index: 1;
-    }
+#lang-cont {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    width: 100%;
 }
-@media (max-width: 480px) {
-    #lang-cont {
-    position: fixed;
-    left: 20%;
-    top: 10px;
-    z-index: 1;
-    }
+#lang-label {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #555;
+    white-space: nowrap;
+}
+#language {
+    flex: 1;
 }
