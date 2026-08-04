@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="../style/sidebar.css">
     <link rel="stylesheet" href="../style/mainstyles.css">
     <link rel="stylesheet" href="../style/portfolio.css">
+    <link rel="canonical" href="https://code4all.eu/fr/portfolio.html">
+    <link rel="alternate" hreflang="pl" href="https://code4all.eu/portfolio.html">
+    <link rel="alternate" hreflang="en" href="https://code4all.eu/en/portfolio.html">
+    <link rel="alternate" hreflang="de" href="https://code4all.eu/de/portfolio.html">
+    <link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/portfolio.html">
+    <link rel="alternate" hreflang="x-default" href="https://code4all.eu/portfolio.html">
 </head>
 <body>
     <nav class="navbar d-md-none bg-light border-bottom px-3 sticky-top">
@@ -72,21 +78,101 @@
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
                         <div class="card h-100 text-center">
-                            <img src="../img/hangman-miniaturka.png" class="card-img-top" alt="Hangman">
+                            <img src="../img/project-manager.png" class="card-img-top" alt="Project Manager">
                             <div class="card-body">
-                                <h5 class="card-title">Hangman</h5>
-                                <p class="card-text">Le programme choisit un mot au hasard dans un fichier et l'utilisateur devine les lettres. Pour chaque lettre mal devinée, une partie d'un pendu est dessinée. Si le dessin est terminé avant que le mot soit deviné, le joueur perd.</p>
-                                <a href="https://github.com/kamilszwaradzki/Hangman" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
+                                <h5 class="card-title">Project Manager</h5>
+                                <p class="card-text">Tableau Kanban pour gérer projets et tâches — pour les équipes qui veulent s'organiser sans payer Jira ou Trello. Laravel 11/12 + Tailwind + Alpine.js, glisser-déposer, commentaires, mode sombre.</p>
+                                <a href="https://github.com/kamilszwaradzki/project-manager" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100 text-center">
-                            <img src="../img/todolist-laravel.png" class="card-img-top" alt="ToDoList">
+                            <img src="../img/realtime-dashboard.png" class="card-img-top" alt="Realtime Dashboard">
                             <div class="card-body">
-                                <h5 class="card-title">ToDoList Laravel</h5>
-                                <p class="card-text">Le programme permet de gérer une liste de tâches. Un simple CRUD.</p>
-                                <a href="https://github.com/kamilszwaradzki/ToDoList" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
+                                <h5 class="card-title">Realtime Dashboard</h5>
+                                <p class="card-text">Tableau de bord surveillant en temps réel les métriques clés du système (CPU, mémoire, réseau, disque). Utile partout où il faut voir l'état de l'infrastructure en direct — l'interface reste fluide même sous des centaines de mises à jour par seconde, grâce à Angular + WebSocket + gestion intelligente de la surcharge de données.</p>
+                                <a href="https://github.com/kamilszwaradzki/realtime-dashboard" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/demo-presta-modules.png" class="card-img-top" alt="Modules PrestaShop">
+                            <div class="card-body">
+                                <h5 class="card-title">Modules PrestaShop</h5>
+                                <p class="card-text">Un ensemble de modules e-commerce pour PrestaShop — chacun répond à un besoin métier précis : packs de produits pour booster les ventes, récupération de paniers abandonnés, gestion multi-entrepôts, programme de fidélité.</p>
+                                <a href="https://github.com/kamilszwaradzki/demo-presta-modules" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/woocommerce-integration.gif" class="card-img-top" alt="Intégration WooCommerce">
+                            <div class="card-body">
+                                <h5 class="card-title">Intégration WooCommerce</h5>
+                                <p class="card-text">Démo d'intégration WooCommerce avec une API REST externe — montre comment connecter une boutique à un système externe (CRM ou ERP) pour synchroniser automatiquement produits et commandes.</p>
+                                <a href="https://github.com/kamilszwaradzki/woocommerce-integration-with-api-demo" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/system-kolejek-gorskich.png" class="card-img-top" alt="Système de télécabines">
+                            <div class="card-body">
+                                <h5 class="card-title">Système de Télécabines</h5>
+                                <p class="card-text">API de gestion de télécabines de montagne dans les parcs d'attractions — surveille la disponibilité des wagons et du personnel par rapport au nombre de clients et aux horaires. Un exemple de système opérationnel temps réel avec Redis et Docker.</p>
+                                <a href="https://github.com/kamilszwaradzki/SystemKolejekGorskich" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/smart-brief-ai.png" class="card-img-top" alt="Smart Brief AI">
+                            <div class="card-body">
+                                <h5 class="card-title">Smart Brief AI</h5>
+                                <p class="card-text">Une application IA qui transforme une description désordonnée (email client, notes de réunion) en document de travail prêt à l'emploi : résumé, tâches, questions, risques. Réduit le temps de planification de projet de plusieurs heures à quelques minutes.</p>
+                                <a href="https://github.com/kamilszwaradzki/smart-brief-ai" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/revenue-and-expense-ledger-ksir.png" class="card-img-top" alt="Registre des recettes et dépenses">
+                            <div class="card-body">
+                                <h5 class="card-title">Registre des Recettes et Dépenses</h5>
+                                <p class="card-text">Application web pour le registre fiscal polonais des recettes et dépenses (KPiR) pour entrepreneurs individuels — enregistre revenus/dépenses, stocke les factures, calcule automatiquement l'impôt (PIT) et la TVA, génère des rapports. Remplace les tableurs et les registres papier.</p>
+                                <a href="https://github.com/kamilszwaradzki/revenue-and-expense-ledger-ksir" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/react-frontend-demo.png" class="card-img-top" alt="React Frontend Demo">
+                            <div class="card-body">
+                                <h5 class="card-title">React Frontend Demo</h5>
+                                <p class="card-text">Tableau de bord de gestion de tâches en React 18 — montre un frontend moderne avec filtrage, CRUD et intégration API en temps réel. Une bonne base pour un panneau client ou un outil interne d'équipe.</p>
+                                <a href="https://github.com/kamilszwaradzki/react-frontend-demo" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/go-backend-demo.png" class="card-img-top" alt="Go Backend Demo">
+                            <div class="card-body">
+                                <h5 class="card-title">Go Backend Demo</h5>
+                                <p class="card-text">Une API REST simple en Go (Gorilla Mux) pour la gestion de tâches — un exemple de backend léger et rapide là où la performance compte, par exemple un microservice à côté d'une application PHP principale.</p>
+                                <a href="https://github.com/kamilszwaradzki/go-backend-demo" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="../img/subscription-service.png" class="card-img-top" alt="Subscription Service">
+                            <div class="card-body">
+                                <h5 class="card-title">Subscription Service</h5>
+                                <p class="card-text">Système de gestion d'abonnements récurrents avec webhooks de paiement et logique de nouvelle tentative — une base pour un SaaS facturé par abonnement. Symfony + Docker + tests, conçu pour démontrer l'architecture backend et le flux d'événements.</p>
+                                <a href="https://github.com/kamilszwaradzki/subscription-service" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +181,7 @@
                             <img src="../img/JobApps.png" class="card-img-top" alt="JobApps">
                             <div class="card-body">
                                 <h5 class="card-title">JobApps</h5>
-                                <p class="card-text">Une application pour aider à gérer les candidatures envoyées. Elle permet de filtrer et trier par colonnes et de changer les statuts à tout moment.</p>
+                                <p class="card-text">Une application pour organiser sa recherche d'emploi — suit les entreprises, les dates de candidature et les statuts (envoyée / entretien / offre) pour ne jamais perdre une opportunité de vue. Fonctionne aussi comme un squelette de CRM léger pour suivre des prospects.</p>
                                 <a href="https://github.com/kamilszwaradzki/awesome-compose/tree/master/react-express-mongodb" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
                             </div>
                         </div>
@@ -105,7 +191,7 @@
                             <img src="../img/PowerPlant.png" class="card-img-top" alt="PowerPlant">
                             <div class="card-body">
                                 <h5 class="card-title">PowerPlant</h5>
-                                <p class="card-text">L'application simule le fonctionnement de 20 générateurs d'électricité envoyant des données à intervalles courts. Les données sont stockées dans une base MongoDB et un rapport est généré chaque jour avec la puissance moyenne générée par chaque générateur au cours de l'heure.</p>
+                                <p class="card-text">Simule 20 générateurs d'électricité envoyant des données en temps réel vers MongoDB, avec des rapports quotidiens de puissance moyenne. Un exemple d'architecture de collecte et d'agrégation de données pour de nombreux appareils IoT.</p>
                                 <a href="https://github.com/kamilszwaradzki/PowerPlant" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
                             </div>
                         </div>
@@ -115,7 +201,7 @@
                             <img src="../img/chat-miniaturka.png" class="card-img-top" alt="ChatBetweenUsers">
                             <div class="card-body">
                                 <h5 class="card-title">ChatBetweenUsers</h5>
-                                <p class="card-text">L'application permet de discuter avec un autre utilisateur authentifié.</p>
+                                <p class="card-text">Chat en temps réel entre utilisateurs connectés — une base pour une messagerie interne, un support client en direct ou un chat intégré à un produit SaaS.</p>
                                 <a href="https://github.com/kamilszwaradzki/ChatBetweenUsers" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
                             </div>
                         </div>
@@ -125,7 +211,7 @@
                             <img src="../img/WzorceProjektowe.png" class="card-img-top" alt="Design Patterns in PHP">
                             <div class="card-body">
                                 <h5 class="card-title">Design Patterns en PHP</h5>
-                                <p class="card-text">Mes implémentations de design patterns en PHP, d'après le livre « Head First! Design Patterns », 1ère édition.</p>
+                                <p class="card-text">Implémentations de design patterns classiques en PHP d'après « Head First! Design Patterns » — démontre une bonne connaissance des pratiques architecturales solides, pas seulement du « code qui fonctionne ».</p>
                                 <a href="https://github.com/kamilszwaradzki/WzorceProjektowe" target="_blank" class="btn btn-dark btn-sm">Voir le code</a>
                             </div>
                         </div>

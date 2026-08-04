@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="style/sidebar.css">
     <link rel="stylesheet" href="style/mainstyles.css">
     <link rel="stylesheet" href="style/portfolio.css">
+    <link rel="canonical" href="https://code4all.eu/portfolio.html">
+    <link rel="alternate" hreflang="pl" href="https://code4all.eu/portfolio.html">
+    <link rel="alternate" hreflang="en" href="https://code4all.eu/en/portfolio.html">
+    <link rel="alternate" hreflang="de" href="https://code4all.eu/de/portfolio.html">
+    <link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/portfolio.html">
+    <link rel="alternate" hreflang="x-default" href="https://code4all.eu/portfolio.html">
 </head>
 <body>
     <nav class="navbar d-md-none bg-light border-bottom px-3 sticky-top">
@@ -72,21 +78,101 @@
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
                         <div class="card h-100 text-center">
-                            <img src="img/hangman-miniaturka.png" class="card-img-top" alt="Hangman">
+                            <img src="img/project-manager.png" class="card-img-top" alt="Project Manager">
                             <div class="card-body">
-                                <h5 class="card-title">Hangman</h5>
-                                <p class="card-text">Program losuje słowo z pliku, a użytkownik zgaduje litery. Za każdą błędnie odgadniętą literę dorysowywana jest kolejna część wisielca. Jeśli rysunek zostanie ukończony, zanim gracz odgadnie całe słowo, przegrywa.</p>
-                                <a href="https://github.com/kamilszwaradzki/Hangman" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
+                                <h5 class="card-title">Project Manager</h5>
+                                <p class="card-text">Kanban do zarządzania projektami i zadaniami — dla zespołów, które chcą ogarnąć pracę bez płacenia za Jira czy Trello. Laravel 11/12 + Tailwind + Alpine.js, drag&drop, komentarze, tryb ciemny.</p>
+                                <a href="https://github.com/kamilszwaradzki/project-manager" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100 text-center">
-                            <img src="img/todolist-laravel.png" class="card-img-top" alt="ToDoList">
+                            <img src="img/realtime-dashboard.png" class="card-img-top" alt="Realtime Dashboard">
                             <div class="card-body">
-                                <h5 class="card-title">ToDoList Laravel</h5>
-                                <p class="card-text">Program pozwala zarządzać listą zadań. Proste CRUD.</p>
-                                <a href="https://github.com/kamilszwaradzki/ToDoList" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
+                                <h5 class="card-title">Realtime Dashboard</h5>
+                                <p class="card-text">Dashboard do monitorowania kluczowych metryk systemu (CPU, pamięć, sieć, dysk) na żywo. Przydatny wszędzie tam, gdzie trzeba widzieć stan infrastruktury w czasie rzeczywistym — interfejs zostaje płynny nawet przy setkach aktualizacji na sekundę dzięki Angular + WebSocket + inteligentnemu zarządzaniu przepływem danych.</p>
+                                <a href="https://github.com/kamilszwaradzki/realtime-dashboard" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="img/demo-presta-modules.png" class="card-img-top" alt="PrestaShop modules">
+                            <div class="card-body">
+                                <h5 class="card-title">PrestaShop Modules</h5>
+                                <p class="card-text">Zbiór modułów rozszerzających e-commerce dla PrestaShop — każdy odpowiada na konkretną potrzebę biznesową: pakietowanie produktów zwiększające sprzedaż, odzyskiwanie porzuconych koszyków, zarządzanie wieloma magazynami, program lojalnościowy.</p>
+                                <a href="https://github.com/kamilszwaradzki/demo-presta-modules" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="img/woocommerce-integration.gif" class="card-img-top" alt="WooCommerce integration">
+                            <div class="card-body">
+                                <h5 class="card-title">WooCommerce Integration</h5>
+                                <p class="card-text">Demo integracji WooCommerce z zewnętrznym REST API — pokazuje, jak podłączyć sklep do zewnętrznego systemu (np. CRM lub ERP), żeby dane o produktach i zamówieniach synchronizowały się automatycznie.</p>
+                                <a href="https://github.com/kamilszwaradzki/woocommerce-integration-with-api-demo" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="img/system-kolejek-gorskich.png" class="card-img-top" alt="System Kolejek Górskich">
+                            <div class="card-body">
+                                <h5 class="card-title">System Kolejek Górskich</h5>
+                                <p class="card-text">API do zarządzania kolejkami górskimi w parkach rozrywki — monitoruje dostępność wagoników i personelu względem liczby klientów i godzin pracy. Przykład systemu operacyjnego czasu rzeczywistego z Redis i Dockerem.</p>
+                                <a href="https://github.com/kamilszwaradzki/SystemKolejekGorskich" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="img/smart-brief-ai.png" class="card-img-top" alt="Smart Brief AI">
+                            <div class="card-body">
+                                <h5 class="card-title">Smart Brief AI</h5>
+                                <p class="card-text">Aplikacja z AI, która zamienia chaotyczny opis (mail od klienta, notatki ze spotkania) w gotowy dokument roboczy: podsumowanie, zadania, pytania i ryzyka. Skraca planowanie projektu z godzin do minut.</p>
+                                <a href="https://github.com/kamilszwaradzki/smart-brief-ai" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="img/revenue-and-expense-ledger-ksir.png" class="card-img-top" alt="Księga przychodów i rozchodów">
+                            <div class="card-body">
+                                <h5 class="card-title">Księga Przychodów i Rozchodów</h5>
+                                <p class="card-text">Elektroniczna księga przychodów i rozchodów (KPiR) dla jednoosobowych działalności — rejestruje przychody/koszty, przechowuje faktury, automatycznie liczy PIT i VAT oraz generuje zestawienia. Zastępuje Excel i papierowe księgi.</p>
+                                <a href="https://github.com/kamilszwaradzki/revenue-and-expense-ledger-ksir" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="img/react-frontend-demo.png" class="card-img-top" alt="React Frontend Demo">
+                            <div class="card-body">
+                                <h5 class="card-title">React Frontend Demo</h5>
+                                <p class="card-text">Dashboard do zarządzania zadaniami w React 18 — nowoczesny frontend z filtrowaniem, CRUD i integracją API w czasie rzeczywistym. Baza pod panel klienta albo wewnętrzne narzędzie zespołu.</p>
+                                <a href="https://github.com/kamilszwaradzki/react-frontend-demo" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="img/go-backend-demo.png" class="card-img-top" alt="Go Backend Demo">
+                            <div class="card-body">
+                                <h5 class="card-title">Go Backend Demo</h5>
+                                <p class="card-text">Proste REST API w Go (Gorilla Mux) do zarządzania zadaniami — przykład lekkiego, szybkiego backendu tam, gdzie liczy się wydajność, np. jako mikroserwis obok głównej aplikacji PHP.</p>
+                                <a href="https://github.com/kamilszwaradzki/go-backend-demo" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <img src="img/subscription-service.png" class="card-img-top" alt="Subscription Service">
+                            <div class="card-body">
+                                <h5 class="card-title">Subscription Service</h5>
+                                <p class="card-text">System zarządzania cyklicznymi subskrypcjami z webhookami płatności i retry logic — szkielet pod SaaS rozliczany abonamentowo. Symfony + Docker + testy, zaprojektowany, by pokazać architekturę backendową i event flow.</p>
+                                <a href="https://github.com/kamilszwaradzki/subscription-service" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +181,7 @@
                             <img src="img/JobApps.png" class="card-img-top" alt="JobApps">
                             <div class="card-body">
                                 <h5 class="card-title">JobApps</h5>
-                                <p class="card-text">Aplikacja do zarządzania wysłanymi aplikacjami o pracę. Umożliwia filtrowanie i sortowanie po kolumnach oraz zmianę statusów w dowolnym momencie.</p>
+                                <p class="card-text">Aplikacja do organizacji poszukiwań pracy — śledzi firmy, daty aplikacji i statusy (wysłane / rozmowa / oferta), żeby nie zgubić żadnej szansy. Przydatna też jako szkielet CRM-a do śledzenia leadów.</p>
                                 <a href="https://github.com/kamilszwaradzki/awesome-compose/tree/master/react-express-mongodb" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
                             </div>
                         </div>
@@ -105,7 +191,7 @@
                             <img src="img/PowerPlant.png" class="card-img-top" alt="PowerPlant">
                             <div class="card-body">
                                 <h5 class="card-title">PowerPlant</h5>
-                                <p class="card-text">Aplikacja symuluje działanie 20 generatorów energii wysyłających dane w krótkich odstępach czasu. Dane trafiają do MongoDB, a raz dziennie generowany jest raport ze średnią mocą wygenerowaną przez każdy generator w ciągu godziny.</p>
+                                <p class="card-text">Symulacja 20 generatorów energii wysyłających dane w czasie rzeczywistym do MongoDB, z dziennymi raportami średniej mocy. Przykład architektury do zbierania i agregowania danych z wielu urządzeń IoT.</p>
                                 <a href="https://github.com/kamilszwaradzki/PowerPlant" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
                             </div>
                         </div>
@@ -115,7 +201,7 @@
                             <img src="img/chat-miniaturka.png" class="card-img-top" alt="ChatBetweenUsers">
                             <div class="card-body">
                                 <h5 class="card-title">ChatBetweenUsers</h5>
-                                <p class="card-text">Aplikacja umożliwia czatowanie z innym zalogowanym użytkownikiem.</p>
+                                <p class="card-text">Czat między zalogowanymi użytkownikami w czasie rzeczywistym — podstawa pod komunikator wewnętrzny, wsparcie klienta na żywo albo czat w aplikacji SaaS.</p>
                                 <a href="https://github.com/kamilszwaradzki/ChatBetweenUsers" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
                             </div>
                         </div>
@@ -125,7 +211,7 @@
                             <img src="img/WzorceProjektowe.png" class="card-img-top" alt="Design Patterns in PHP">
                             <div class="card-body">
                                 <h5 class="card-title">Wzorce projektowe w PHP</h5>
-                                <p class="card-text">Moje implementacje wzorców projektowych w PHP na podstawie książki "Head First! Design Patterns" (1. wydanie).</p>
+                                <p class="card-text">Implementacje klasycznych wzorców projektowych w PHP na podstawie "Head First! Design Patterns" — pokazuje znajomość dobrych praktyk architektonicznych, nie tylko "pisania kodu, który działa".</p>
                                 <a href="https://github.com/kamilszwaradzki/WzorceProjektowe" target="_blank" class="btn btn-dark btn-sm">Zobacz kod</a>
                             </div>
                         </div>
