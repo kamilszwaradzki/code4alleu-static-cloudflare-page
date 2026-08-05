@@ -27,6 +27,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    document.querySelectorAll('.phone-reveal-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            const phone = btn.dataset.tel.split('').reverse().join('');
+            const link = document.createElement('a');
+            link.href = 'tel:' + phone.replace(/\s/g, '');
+            link.textContent = phone;
+            link.className = btn.className.replace('phone-reveal-btn', '').trim();
+            link.style.color = 'var(--accent)';
+            btn.replaceWith(link);
+        });
+    });
+
     if (languageSelect) {
         languageSelect.addEventListener("change", function (e) {
             const targetLang = e.target.value;

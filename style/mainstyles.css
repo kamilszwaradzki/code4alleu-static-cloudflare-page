@@ -356,20 +356,6 @@ font-size: 20px;
     top: 0px !important;
     right: 109px !important;
     }
-    #exp-tag {
-    font-family: 'Poppins';
-    padding: 7px;
-    color: white;
-    background: black;
-    position: absolute;
-    right: 46px;
-    top: 243px;
-    width: fit-content;
-    height: auto;
-    border-radius: 20%;
-    z-index: 2;
-    font-size: 14px;
-    }
     #menu_button {
     position: fixed;
     top: 1rem;
@@ -416,21 +402,6 @@ font-size: 20px;
     /* right: -294px; */
     margin-top: 3rem;
     }
-    #exp-tag {
-    font-family: 'Poppins';
-    padding: 7px;
-    color: white;
-    background: black;
-    position: absolute;
-    right: 23px;
-    top: 243px;
-    width: fit-content;
-    height: auto;
-    border-radius: 20%;
-    z-index: 2;
-    font-size: 14px;
-    }
-
     #profile-img {
     position: absolute;
     top: 163px;

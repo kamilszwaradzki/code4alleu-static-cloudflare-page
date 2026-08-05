@@ -59,3 +59,10 @@ label {
         margin-top: 0;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .badge.fs-1 {
+        white-space: normal;
+        font-size: 1.6rem;
+    }
+}

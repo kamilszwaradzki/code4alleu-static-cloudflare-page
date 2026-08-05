@@ -130,7 +130,7 @@ padding: 0.5em;
         display: grid;
         align-items: center;
         grid-gap: 1em;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     }
     .card {
         grid-template-columns: repeat(4, 1fr);

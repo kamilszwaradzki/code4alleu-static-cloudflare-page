@@ -36,12 +36,13 @@
     <link rel="alternate" hreflang="x-default" href="https://code4all.eu/portfolio.html">
 </head>
 <body>
+    <a class="visually-hidden-focusable" href="#main-content">Aller au contenu</a>
     <nav class="navbar d-md-none bg-light border-bottom px-3 sticky-top">
-        <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
+        <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-label="Ouvrir le menu">
             <i class="bi-list fs-4"></i>
         </button>
         <a href="index.html" class="navbar-brand ms-2">
-            <img src="../img/logo_c4a.png" style="max-height: 40px;">
+            <img src="../img/logo_c4a.png" style="max-height: 40px;" alt="Code4All">
         </a>
     </nav>
 
@@ -54,7 +55,7 @@
                     <h5 class="offcanvas-title" id="sidebarMenuLabel">Menu</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-black min-vh-100 sticky-top">
+                <div class="offcanvas-body d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-black min-vh-100 sticky-top" role="navigation" aria-label="Menu principal">
                     <!-- Sélecteur de langue -->
                     <div id="lang-cont" class="mb-3">
                         <label id="lang-label" for="language">Langue</label>
@@ -67,21 +68,21 @@
                     </div>
                     <div class="d-flex flex-column align-items-center align-items-sm-start pb-3 mb-3">
                         <a href="index.html">
-                            <img src="../img/logo_c4a.png" class="img-fluid mb-2" style="max-height: 70px;">
+                            <img src="../img/logo_c4a.png" class="img-fluid mb-2" style="max-height: 70px;" alt="Code4All">
                         </a>
                         </div>
                     <ul class="nav nav-pills flex-column w-100" id="menu">
                         <li class="nav-item w-100 mb-1"><a href="index.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-house"></i> <span class="ms-1">Accueil</span></a></li>
                         <li class="nav-item w-100 mb-1"><a href="contact.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-telephone-outbound"></i> <span class="ms-1">Contact</span></a></li>
                         <li class="nav-item w-100 mb-1"><a href="about.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-person-raised-hand"></i> <span class="ms-1">À propos</span></a></li>
-                        <li class="nav-item w-100 mb-1"><a href="portfolio.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill active"><i class="fs-4 bi-git"></i> <span class="ms-1">Portfolio</span></a></li>
+                        <li class="nav-item w-100 mb-1"><a href="portfolio.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill active" aria-current="page"><i class="fs-4 bi-git"></i> <span class="ms-1">Portfolio</span></a></li>
                         <li class="nav-item w-100"><a href="rates.html" class="btn btn-outline-dark fs-4 border-0 px-2 w-100 text-start rounded-pill"><i class="fs-4 bi-coin"></i> <span class="ms-1">Tarifs</span></a></li>
                     </ul>
                 </div>
             </div>
 
             <!-- Contenu portfolio -->
-            <div class="col py-4 px-5">
+            <div class="col py-4 px-3 px-md-5" role="main" id="main-content">
                 <div class="row my-5 text-center">
                     <div class="col">
                         <div class="badge text-bg-dark fs-1 fw-bold">Mes projets</div>
@@ -240,6 +241,10 @@
                     <a href="mailto:kontakt@code4all.eu" class="mx-2" style="color:var(--accent);" aria-label="Email"><i class="bi-envelope fs-5"></i></a>
                     <a href="https://linkedin.com/in/kamil-szwaradzki" target="_blank" rel="noopener" class="mx-2" style="color:var(--accent);" aria-label="LinkedIn"><i class="bi-linkedin fs-5"></i></a>
                     <a href="https://github.com/kamilszwaradzki" target="_blank" rel="noopener" class="mx-2" style="color:var(--accent);" aria-label="GitHub"><i class="bi-github fs-5"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100068312512496" target="_blank" rel="noopener" class="mx-2" style="color:var(--accent);" aria-label="Facebook"><i class="bi-facebook fs-5"></i></a>
+                </div>
+                <div class="mt-2">
+                    <button type="button" class="btn btn-outline-dark btn-sm rounded-pill phone-reveal-btn" data-tel="817 539 727 84+" aria-label="Afficher le numéro"><i class="bi-telephone me-1"></i>Afficher le numéro</button>
                 </div>
                 Copyright © 2023-2026 Kamil Szwaradzki
                 </footer>
