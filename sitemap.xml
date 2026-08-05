@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://code4all.eu/</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/en/</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/de/</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/fr/</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/about.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/about.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/about.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/about.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/about.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/about.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/en/about.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/about.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/about.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/about.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/about.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/about.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/de/about.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/about.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/about.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/about.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/about.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/about.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/fr/about.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/about.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/about.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/about.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/about.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/about.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/contact.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/contact.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/contact.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/contact.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/contact.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/contact.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/en/contact.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/contact.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/contact.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/contact.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/contact.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/contact.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/de/contact.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/contact.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/contact.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/contact.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/contact.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/contact.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/fr/contact.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/contact.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/contact.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/contact.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/contact.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/contact.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/portfolio.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/portfolio.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/en/portfolio.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/portfolio.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/de/portfolio.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/portfolio.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/fr/portfolio.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/portfolio.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/portfolio.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/rates.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/rates.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/rates.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/rates.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/rates.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/rates.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/en/rates.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/rates.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/rates.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/rates.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/rates.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/rates.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/de/rates.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/rates.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/rates.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/rates.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/rates.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/rates.html" />
+    </url>
+    <url>
+        <loc>https://code4all.eu/fr/rates.html</loc>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://code4all.eu/rates.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://code4all.eu/en/rates.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://code4all.eu/de/rates.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://code4all.eu/fr/rates.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://code4all.eu/rates.html" />
+    </url>
+</urlset>
