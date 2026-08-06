@@ -1,31 +1,16 @@
-/*
- C *lick nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
- */
-/*
- *   Created on : 12 wrz 2023, 21:30:41
- *   Author     : Kamil Szwaradzki <kamil.szwaradzki at your.org>
- */
 main {
     height: auto;
 }
 
 /* Bring About in line with the rest of the site's accent theme */
-#profile h2, #skills h2, #experience h2 {
+#profile h2, #case-study h2, #references h2, #skills h2, #experience h2 {
     color: var(--accent-dark);
 }
-#profile .card {
+#profile .card, #case-study .card, #references .card, #experience .card {
     border: none;
     border-left: 4px solid var(--accent);
     border-radius: .5rem;
     box-shadow: 0 4px 14px rgba(0, 0, 0, .05);
-}
-#skills .list-group-item {
-    border-color: rgba(47, 111, 235, .12);
-    transition: background-color .15s ease;
-}
-#skills .list-group-item:hover {
-    background: var(--accent-soft);
 }
 .accordion-button:not(.collapsed) {
     background: var(--accent-soft);
@@ -35,125 +20,113 @@ main {
 .accordion-button:focus {
     box-shadow: 0 0 0 .2rem rgba(47, 111, 235, .2);
 }
-progress {
-    accent-color: var(--accent);
+
+/* Skills - grouped tags */
+.skill-group {
+    margin-bottom: 1.75rem;
+}
+.skill-group h3 {
+    font-size: .85rem;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: #6c757d;
+    margin-bottom: .6rem;
+}
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+.skill-tag {
+    display: inline-block;
+    background: var(--accent-soft);
+    color: var(--accent-dark);
+    font-weight: 500;
+    padding: .4rem .9rem;
+    border-radius: 999px;
+    font-size: .95rem;
 }
 
-.rating {
-    text-align: center;
-    perspective: 250px;
-    width: 100%;
+/* Experience - vertical timeline */
+.timeline {
+    position: relative;
+    padding-left: 2rem;
 }
-
-.rating span {
-    font-size: 50px;
-    padding: 0 10px;
-    color: grey;
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: .4rem;
+    top: .5rem;
+    bottom: .5rem;
+    width: 2px;
+    background: var(--accent-soft);
 }
-.rating span.hover {
-    color: #ff0;
+.timeline-item {
+    position: relative;
+    padding-bottom: 2.25rem;
 }
-.half-color {
-    font-size: 50px;
-    background: linear-gradient(to right, #ff0, #ff0 50%, grey 50%, grey);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.timeline-item:last-child {
+    padding-bottom: 0;
 }
-
-.card ul li {
-    list-style-position: inside;
+.timeline-marker {
+    position: absolute;
+    left: -2rem;
+    top: .35rem;
+    width: .9rem;
+    height: .9rem;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 2px var(--accent-soft);
+}
+.timeline-content {
     overflow-wrap: break-word;
-    padding: 0.5em;
+    word-break: break-word;
 }
-
-#table-of-contents {
-list-style: none;
-border: #331cf9 2px solid;
-width: fit-content;
-padding: 0.5em;
+.timeline-content h3 {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+}
+.timeline-content ul {
+    padding-left: 1.2rem;
+    margin-bottom: .5rem;
+}
+.timeline-content ul li {
+    margin-bottom: .25rem;
+}
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+    margin-top: .25rem;
+}
+.tech-tag {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #dbe8fc;
+    color: #495057;
+    font-size: .8rem;
+    padding: .25rem .65rem;
+    border-radius: 999px;
 }
 
 @media (min-width: 810px) {
     #skills-list {
-    margin: 0 4em 0 4em;
+        margin: 0 4em 0 4em;
     }
-
-    #profile p {
-    margin: 0 3em 0 3em;
-    }
-
-    nav span {
-        position: fixed;
-        animation-name: move;
-        animation-duration: 1ms;
-        animation-direction: alternate;
-        animation-timeline: scroll(block nearest);
-    }
-
-    @keyframes move {
-        from {left: 35%;}
-        to {left: 73%;}
-    }
-
-    .cards {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1em;
-        font-size: large;
-    }
-    h2, p {
-        text-align: center;
-        text-align: -webkit-center;
-    }
-
-    b {
-        display: block;
-        margin: 0.5em;
-        text-align: center;
+    #profile > p {
+        margin: 0 3em 0 3em;
     }
 }
 @media (max-width: 768px) {
-    progress {
-        width: 95%;
-    }
     main {
         margin-left: 1em;
         margin-right: 1em;
     }
-    h2, p {
-        text-align: center;
-        text-align: -webkit-center;
+    .timeline {
+        padding-left: 1.5rem;
     }
-    .cards {
-        display: grid;
-        align-items: center;
-        grid-gap: 1em;
-        grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
-    }
-    .card {
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 300px);
-    }
-
-    b {
-        display: block;
-        margin: 0.5em;
-        text-align: center;
-    }
-    .rating span {
-        font-size: 26px;
-        padding: 0 4px;
-    }
-    .accordion-button {
-        flex-wrap: wrap;
-        row-gap: .25rem;
-    }
-}
-@media (max-width: 480px) {
-    .rating span {
-        font-size: 18px;
-        padding: 0 2px;
+    .timeline-marker {
+        left: -1.5rem;
     }
 }

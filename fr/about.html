@@ -86,12 +86,69 @@
                 <div class="row">
                     <div class="col">
                         <section id="profile" class="my-5">
-                            <h2>Profil professionnel</h2>
+                            <h2>À propos de moi</h2>
+                            <div class="p-4 rounded-4 mb-4" style="background:var(--accent-soft);">
+                                <p class="text-wrap fs-4 mb-0" style="color:#000;">
+                                    Au quotidien, je travaille aux côtés d'un agent IA (Claude Code), mais c'est moi qui vérifie et qui assume la responsabilité de ce qui part en production. Après près de 6 ans en PHP, je sais que les outils changent tout le temps — la responsabilité de la qualité du code reste toujours celle du développeur.
+                                </p>
+                            </div>
+
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h3 class="h5">D'où je viens</h3>
+                                    <p class="text-wrap mb-0">
+                                        J'ai commencé comme technicien informatique, puis j'ai étudié l'ingénierie des systèmes d'information à l'Université de Varmie-Mazurie à Olsztyn. Je programme en PHP commercialement depuis 2020. J'ai débuté sur de petits projets e-commerce et CRM, et je travaille aujourd'hui sur des plateformes et systèmes internationaux où les données sensibles, le trafic élevé et les intégrations de paiement comptent.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h3 class="h5">Comment je travaille</h3>
+                                    <p class="text-wrap mb-0">
+                                        Je me sens le plus à l'aise sur les projets où il faut ajouter du nouveau code à un système existant sans rien casser. Dans le travail commercial, je préfère les solutions éprouvées et stables à ce qui est simplement à la mode. L'important, c'est que la production fonctionne.
+                                    </p>
+                                </div>
+                            </div>
+
                             <div class="card">
                                 <div class="card-body">
-                                    <p class="text-wrap fs-4">
-                                        Je suis un programmeur PHP avec près de 6 ans d'expérience commerciale, dont environ 3 ans avec Symfony, 2,5 ans avec Laravel, 7 mois avec CodeIgniter, ainsi qu'une expérience pratique de PrestaShop (modules sur mesure, intégrations e-commerce). Je me suis spécialisé dans le développement backend PHP et les API REST, c'est pourquoi je me sens le plus à l'aise dans le poste de développeur PHP / développeur backend.
+                                    <h3 class="h5">Polyvalence</h3>
+                                    <p class="text-wrap">
+                                        En dehors de PHP, j'ai aussi testé Ruby on Rails (formation terminée sur The Odin Project), un peu de Python/Flask, Go, et même du développement mobile — Kotlin, Swift, Flutter. Je me suis aussi essayé à l'IA/Data Science. Cela me permet de mieux comprendre l'ensemble du système, pas seulement la partie dont je suis responsable.
                                     </p>
+                                    <p class="text-wrap mb-0">
+                                        Je travaille avec Claude Code au quotidien — pour le refactoring, la revue de code, les tests. Je le considère comme un outil de plus dans la boîte à outils, pas comme une mode passagère.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="case-study" class="my-5">
+                            <h2>Comment je travaille en pratique</h2>
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="text-wrap">
+                                        Un bon exemple de ma façon de travailler : sur un projet, le processus de paiement au moment du checkout d'une boutique Shopify a cessé de fonctionner. Les clients ne pouvaient plus finaliser leurs achats, et l'entreprise perdait des ventes à chaque heure qui passait. La personne auparavant responsable de cette intégration avait tout simplement disparu — aucune passation, aucune documentation. Le client s'est retrouvé seul face au problème. Le code était en Python/Flask avec l'API Shopify, en dehors de ma spécialisation principale.
+                                    </p>
+                                    <p class="text-wrap">
+                                        Je me suis penché sur ce code inconnu, j'ai trouvé le bug et déployé le correctif le jour même. Les paiements ont repris avant que la perte ne devienne sérieuse.
+                                    </p>
+                                    <p class="text-wrap mb-0">
+                                        Je n'ai pas attendu que quelqu'un « qui connaît Python » s'en occupe. Et je préfère ne pas laisser un client seul face à un problème, comme il l'avait été auparavant.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="references" class="my-5">
+                            <h2>Ce que disent les clients</h2>
+                            <div class="card">
+                                <div class="card-body">
+                                    <blockquote class="text-wrap mb-2" style="font-style: italic;">
+                                        « Kamil Szwaradzki s'est distingué avant tout par sa communication et sa fiabilité. C'est un collaborateur extrêmement précieux — je suis certain qu'il excellera dans n'importe quel poste lié au développement Laravel. »
+                                    </blockquote>
+                                    <p class="text-wrap mb-0 fw-semibold">— Szymon Susz, Membre du conseil d'administration, Freshview Sp. z o.o.</p>
                                 </div>
                             </div>
                         </section>
@@ -102,18 +159,86 @@
                     <div class="col">
                         <section id="skills">
                             <h2>Compétences</h2>
-                            <ul class="list-group">
-                                <li class="list-group-item">PHP 8.x et supérieur</li>
-                                <li class="list-group-item">Symfony, Laravel</li>
-                                <li class="list-group-item">API REST, Doctrine ORM</li>
-                                <li class="list-group-item">MySQL, PostgreSQL</li>
-                                <li class="list-group-item">PrestaShop (modules, intégrations)</li>
-                                <li class="list-group-item">Docker</li>
-                                <li class="list-group-item">JS/CSS/HTML</li>
-                                <li class="list-group-item">Vue.js, Backbone.js</li>
-                                <li class="list-group-item">Apache/Nginx, Linux</li>
-                                <li class="list-group-item">Anglais niveau B2</li>
-                            </ul>
+                            <div class="skill-group">
+                                <h3>Backend</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">PHP 8.x+</span>
+                                    <span class="skill-tag">Symfony</span>
+                                    <span class="skill-tag">Laravel</span>
+                                    <span class="skill-tag">CodeIgniter</span>
+                                    <span class="skill-tag">API REST</span>
+                                    <span class="skill-tag">API Platform</span>
+                                    <span class="skill-tag">Doctrine ORM</span>
+                                    <span class="skill-tag">PHPUnit</span>
+                                    <span class="skill-tag">YAML / XML</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h3>Frontend</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">JS / CSS / HTML</span>
+                                    <span class="skill-tag">React</span>
+                                    <span class="skill-tag">Vue.js</span>
+                                    <span class="skill-tag">jQuery</span>
+                                    <span class="skill-tag">Backbone.js</span>
+                                    <span class="skill-tag">Riot.js</span>
+                                    <span class="skill-tag">Alpine.js</span>
+                                    <span class="skill-tag">Livewire</span>
+                                    <span class="skill-tag">Twig</span>
+                                    <span class="skill-tag">Tailwind CSS</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h3>E-commerce &amp; CMS</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">PrestaShop (modules, intégrations)</span>
+                                    <span class="skill-tag">OpenCart</span>
+                                    <span class="skill-tag">WordPress</span>
+                                    <span class="skill-tag">Shopify (intégrations)</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h3>Bases de données &amp; infrastructure</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">MySQL</span>
+                                    <span class="skill-tag">PostgreSQL</span>
+                                    <span class="skill-tag">Redis</span>
+                                    <span class="skill-tag">Docker</span>
+                                    <span class="skill-tag">CI/CD (GitLab)</span>
+                                    <span class="skill-tag">Git</span>
+                                    <span class="skill-tag">Apache / Nginx / Linux</span>
+                                    <span class="skill-tag">Bash / SSH (VPS)</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h3>Méthodes &amp; outils</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Agile / Scrum</span>
+                                    <span class="skill-tag">Jira</span>
+                                    <span class="skill-tag">Code Review</span>
+                                    <span class="skill-tag">Composer</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h3>Autres langages &amp; technologies</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Ruby on Rails</span>
+                                    <span class="skill-tag">Python / Flask</span>
+                                    <span class="skill-tag">Go</span>
+                                    <span class="skill-tag">C++</span>
+                                    <span class="skill-tag">Node.js</span>
+                                    <span class="skill-tag">TypeScript</span>
+                                    <span class="skill-tag">Kotlin / Swift / Flutter</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h3>Langues</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Polonais (langue maternelle)</span>
+                                    <span class="skill-tag">Anglais B2</span>
+                                    <span class="skill-tag">Allemand B1</span>
+                                </div>
+                            </div>
                         </section>
                     </div>
                 </div>
@@ -121,204 +246,91 @@
                 <div class="row my-5">
                     <div class="col">
                         <section id="experience">
-                            <h2>Expérience</h2>
-                            <div class="accordion" id="accordionExperience">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePHP" aria-expanded="false" aria-controls="collapsePHP">
-                                            PHP
-                                            <div class="rating">
-                                                <span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span class="hover">★</span>
-                                            </div>
-                                        </button>
-                                    </h2>
-                                    <div id="collapsePHP" class="accordion-collapse collapse" data-bs-parent="#accordionExperience">
-                                        <div class="accordion-body cards">
-                                            <div class="card" style="background: var(--accent-soft);">
-                                                <h2>PHP</h2>
-                                                <div class="rating">
-                                                    <span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span class="hover">★</span>
-                                                </div>
-                                                <p>
-                                                    <label for="exp_subtotal_1">Près de 6 ans</label>
-                                                </p>
-                                            </div>
-                                            <div class="card" style="background: #fff; border: 1px solid #dbe8fc;">
-                                                <h2>J'ai travaillé sur :</h2>
-                                                <ul>
-                                                    <li>Systèmes e-commerce et SaaS (ZEN Technology, Nextkrok, Webniko),</li>
-                                                    <li>Application médicale pour Codehome — API REST, RBAC, conformité RGPD,</li>
-                                                    <li>Projets antérieurs : CRM, systèmes B2B, intégrations (Cairo-Soft, Anurit),</li>
-                                                </ul>
-                                                <h2>Technologies utilisées :</h2>
-                                                <b>PHP 8, Symfony, Laravel, MySQL, PostgreSQL, Docker, API REST, Doctrine ORM, Twig, Git</b>
+                            <h2>Projets sélectionnés</h2>
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h3 class="h5">Boutique de cartes cadeaux</h3>
+                                            <p class="text-wrap">J'ai construit une plateforme e-commerce de A à Z (Symfony + OpenCart) qui a permis à l'entreprise d'entrer sur un nouveau marché international. J'ai ajouté une recherche floue, un système de modèles d'e-mails automatisé, et stabilisé le processus de déploiement — les campagnes démarraient ~50 % plus vite et le déploiement a été réduit de ~30 %.</p>
+                                            <p class="text-wrap small text-muted mb-2">ZEN Technology B.V.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Symfony 6</span><span class="tech-tag">OpenCart</span><span class="tech-tag">Docker</span><span class="tech-tag">MySQL</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCodeIgniter" aria-expanded="false" aria-controls="collapseCodeIgniter">
-                                            CodeIgniter
-                                            <div class="rating">
-                                                <span class="hover">★</span><span class="hover">★</span><span class="half-color">★</span><span>★</span><span>★</span>
-                                            </div>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseCodeIgniter" class="accordion-collapse collapse" data-bs-parent="#accordionExperience">
-                                        <div class="accordion-body cards">
-                                            <div class="card" style="background: var(--accent-soft);">
-                                                <h2>CodeIgniter</h2>
-                                                <div class="rating">
-                                                    <span class="hover">★</span><span class="hover">★</span><span class="half-color">★</span><span>★</span><span>★</span>
-                                                </div>
-                                                <p>
-                                                    <label for="exp_subtotal_2">Sept mois</label>
-                                                </p>
-                                            </div>
-                                            <div class="card" style="background: #fff; border: 1px solid #dbe8fc;">
-                                                <h2>J'ai travaillé sur :</h2>
-                                                <ul>
-                                                    <li>Application polyvalente pour les compagnies d'assurance au Royaume-Uni, comprenant un moteur de comparaison d'assurances et un calculateur de taxes pour l'importation d'une voiture d'Irlande sur la base du numéro d'immatriculation, ainsi qu'une estimation des réparations,</li>
-                                                </ul>
-                                                <h2>Technologies utilisées :</h2>
-                                                <b>CodeIgniter 3.x, jQuery, MySQL, Git, Vue.js, JS/CSS/HTML, webpack, Twig</b>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h3 class="h5">Système pour une clinique médicale</h3>
+                                            <p class="text-wrap">J'ai conçu et développé une API REST pour la gestion des patients, des rendez-vous et du personnel, avec autorisation et contrôle d'accès (RBAC) conforme au RGPD/PHI. Un frontend React avec calendrier de rendez-vous et rappels automatiques a réduit le nombre de rendez-vous manqués.</p>
+                                            <p class="text-wrap small text-muted mb-2">Codehome sp. z o.o.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Laravel</span><span class="tech-tag">React</span><span class="tech-tag">MySQL</span><span class="tech-tag">RBAC</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSymfony" aria-expanded="false" aria-controls="collapseSymfony">
-                                            Symfony
-                                            <div class="rating">
-                                                <span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span class="half-color">★</span>
-                                            </div>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseSymfony" class="accordion-collapse collapse" data-bs-parent="#accordionExperience">
-                                        <div class="accordion-body cards">
-                                            <div class="card" style="background: var(--accent-soft);">
-                                                <h2>Symfony</h2>
-                                                <div class="rating">
-                                                    <span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span class="half-color">★</span>
-                                                </div>
-                                                <p>
-                                                    <label for="exp_subtotal_3">Environ 3 ans</label>
-                                                </p>
-                                            </div>
-                                            <div class="card" style="background: #fff; border: 1px solid #dbe8fc;">
-                                                <h2>J'ai travaillé sur :</h2>
-                                                <ul>
-                                                    <li>Plateforme e-commerce internationale (ZEN Technology) — modules, intégrations, Docker,</li>
-                                                    <li>Système CRM en mode SaaS (Nextkrok) — modules métier, refactorisation,</li>
-                                                    <li>Générateur de factures et intégrations API (Webniko, API Platform),</li>
-                                                    <li>Intégration avec le système de fulfillment Sellasist (contrat B2B),</li>
-                                                </ul>
-                                                <h2>Technologies utilisées :</h2>
-                                                <b>PHP 8, Symfony 6, Doctrine ORM, Twig, MySQL, PostgreSQL, Docker, API REST, API Platform, Git</b>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h3 class="h5">Générateur de factures &amp; module PrestaShop</h3>
+                                            <p class="text-wrap">J'ai automatisé des documents comptables créés manuellement (Symfony + API Platform + React) et livré un module PrestaShop dédié à la gestion des accès dans la boutique du client.</p>
+                                            <p class="text-wrap small text-muted mb-2">Webniko sp. z o.o.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Symfony</span><span class="tech-tag">API Platform</span><span class="tech-tag">React</span><span class="tech-tag">PrestaShop</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLaravel" aria-expanded="false" aria-controls="collapseLaravel">
-                                            Laravel
-                                            <div class="rating">
-                                                <span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span>★</span>
-                                            </div>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseLaravel" class="accordion-collapse collapse" data-bs-parent="#accordionExperience">
-                                        <div class="accordion-body cards">
-                                            <div class="card" style="background: var(--accent-soft);">
-                                                <h2>Laravel</h2>
-                                                <div class="rating">
-                                                    <span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span>★</span>
-                                                </div>
-                                                <p>
-                                                    <label for="exp_subtotal_4">Environ 2,5 ans</label>
-                                                </p>
-                                            </div>
-                                            <div class="card" style="background: #fff; border: 1px solid #dbe8fc;">
-                                                <h2>J'ai travaillé sur :</h2>
-                                                <ul>
-                                                    <li>Système médical — patients, rendez-vous, RBAC (Codehome),</li>
-                                                    <li>Système interne de gestion des tâches (Freshview, LiveWire),</li>
-                                                    <li>Application web pour une entreprise de sécurité — tableau de bord, archivage de documents (Encrypted Software, actuel),</li>
-                                                </ul>
-                                                <h2>Technologies utilisées :</h2>
-                                                <b>PHP 8, Laravel, Vue.js, Laravel Sanctum, LiveWire, MySQL, Bootstrap, Git</b>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h3 class="h5">Blog multilingue — projet personnel</h3>
+                                            <p class="text-wrap">J'ai conçu et je maintiens moi-même mon propre CMS écrit en PHP à partir de zéro : i18n, cache, optimisation des requêtes SQL, déploiement et sauvegardes automatiques sur mon propre VPS.</p>
+                                            <p class="text-wrap small text-muted mb-2">Projet personnel, en cours</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">PHP</span><span class="tech-tag">MySQL</span><span class="tech-tag">VPS / Linux</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePrestaShop" aria-expanded="false" aria-controls="collapsePrestaShop">
-                                            PrestaShop
-                                            <div class="rating">
-                                                <span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span>★</span><span>★</span>
-                                            </div>
-                                        </button>
-                                    </h2>
-                                    <div id="collapsePrestaShop" class="accordion-collapse collapse" data-bs-parent="#accordionExperience">
-                                        <div class="accordion-body cards">
-                                            <div class="card" style="background: var(--accent-soft);">
-                                                <h2>PrestaShop</h2>
-                                                <div class="rating">
-                                                    <span class="hover">★</span><span class="hover">★</span><span class="hover">★</span><span>★</span><span>★</span>
-                                                </div>
-                                                <p>
-                                                    <label for="exp_subtotal_6">Quelques mois</label>
-                                                </p>
-                                            </div>
-                                            <div class="card" style="background: #fff; border: 1px solid #dbe8fc;">
-                                                <h2>J'ai travaillé sur :</h2>
-                                                <ul>
-                                                    <li>Modules PrestaShop sur mesure étendant les fonctionnalités de la boutique (Webniko),</li>
-                                                    <li>Intégration de PrestaShop avec des systèmes et API externes,</li>
-                                                </ul>
-                                                <h2>Technologies utilisées :</h2>
-                                                <b>PrestaShop 1.6/1.7, PHP, MySQL, Smarty</b>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h3 class="h5">php-backend-demo</h3>
+                                            <p class="text-wrap">Une API RESTful pour la gestion de tâches en Laravel 10 — un projet open source montrant du code propre et de bonnes pratiques en dehors des projets clients couverts par un NDA.</p>
+                                            <a href="https://github.com/kamilszwaradzki/php-backend-demo" target="_blank" rel="noopener" class="d-inline-flex align-items-center gap-1 mb-2" style="color:var(--accent);"><i class="bi-github"></i> Voir le code sur GitHub</a>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Laravel 10</span><span class="tech-tag">API REST</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePython" aria-expanded="false" aria-controls="collapsePython">
-                                            Python
-                                            <div class="rating">
-                                                <span class="hover">★</span><span class="hover">★</span><span>★</span><span>★</span><span>★</span>
-                                            </div>
-                                        </button>
-                                    </h2>
-                                    <div id="collapsePython" class="accordion-collapse collapse" data-bs-parent="#accordionExperience">
-                                        <div class="accordion-body cards">
-                                            <div class="card" style="background: var(--accent-soft);">
-                                                <h2>Python</h2>
-                                                <div class="rating">
-                                                    <span class="hover">★</span><span class="hover">★</span><span>★</span><span>★</span><span>★</span>
-                                                </div>
-                                                <p>
-                                                    <label for="exp_subtotal_5">Un mois</label>
-                                                </p>
-                                            </div>
-                                            <div class="card" style="background: #fff; border: 1px solid #dbe8fc;">
-                                                <h2>J'ai travaillé sur :</h2>
-                                                <ul>
-                                                    <li>Caisse pour la boutique Shopify avec l'API Shopify,</li>
-                                                </ul>
-                                                <h2>Technologies utilisées :</h2>
-                                                <b>Flask, Shopify, Python, Babel, MongoDB</b>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h3 class="h5">project-manager</h3>
+                                            <p class="text-wrap">Un projet annexe de gestion de projets — un autre exemple de code consultable sans restriction de NDA.</p>
+                                            <a href="https://github.com/kamilszwaradzki/project-manager" target="_blank" rel="noopener" class="d-inline-flex align-items-center gap-1 mb-2" style="color:var(--accent);"><i class="bi-github"></i> Voir le code sur GitHub</a>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Laravel</span><span class="tech-tag">Blade</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
+                    </div>
+                </div>
+
+                <div class="row my-5">
+                    <div class="col text-center">
+                        <p class="fs-5 mb-3">
+                            Je travaille à distance, en B2B, et j'accepte des projets aussi bien en Pologne qu'à l'étranger. Si vous cherchez quelqu'un qui prendra l'entière responsabilité du backend — contactez-moi.
+                        </p>
+                        <a href="contact.html" class="btn btn-outline-dark rounded-pill px-4"><i class="bi-telephone-outbound me-1"></i>Me contacter</a>
                     </div>
                 </div>
 
