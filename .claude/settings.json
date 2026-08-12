@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(file img/favicon*)",
+      "Bash(python3 -c ' *)",
+      "Bash(magick favicon.ico -coalesce /tmp/ico_frame_%d.png)",
+      "Bash(identify favicon.ico)",
+      "Bash(magick favicon.ico[0] /tmp/ico0.png)",
+      "Bash(magick favicon.ico[1] /tmp/ico1.png)",
+      "Bash(magick favicon.ico[2] /tmp/ico2.png)",
+      "Bash(magick 'favicon.ico[0]' /tmp/ico0.png)",
+      "Bash(magick 'favicon.ico[1]' /tmp/ico1.png)",
+      "Bash(magick 'favicon.ico[2]' /tmp/ico2.png)",
+      "Bash(identify apple-touch-icon.png favicon-512.png)"
+    ]
+  }
+}
