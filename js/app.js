@@ -1,4 +1,3 @@
-// app.js - bezpieczna wersja dla statycznej strony
 document.addEventListener('DOMContentLoaded', function() {
     const languageSelect = document.getElementById('language');
     const KNOWN_LANGS = ['en', 'de', 'fr'];
@@ -103,17 +102,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetLang = e.target.value;
             const parts = window.location.pathname.split('/').filter(Boolean);
 
-            let file = 'index.html';
-            if (parts.length === 0) {
-                file = 'index.html';
-            } else if (KNOWN_LANGS.includes(parts[0])) {
-                file = parts[1] || 'index.html';
-            } else {
-                file = parts[0];
-            }
+            let page = KNOWN_LANGS.includes(parts[0]) ? (parts[1] || '') : (parts[0] || '');
+            page = page.replace(/\.html$/, '');
+            if (page === 'index') page = '';
 
-            const url = targetLang === 'pl' ? '/' + file : '/' + targetLang + '/' + file;
-            window.location.href = url === '/index.html' ? '/' : url;
+            const prefix = targetLang === 'pl' ? '/' : '/' + targetLang + '/';
+            window.location.href = prefix + page;
         });
     }
 });
