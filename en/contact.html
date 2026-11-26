@@ -20,11 +20,9 @@
     <link rel="icon" type="image/png" href="../img/favicon-16.png" sizes="16x16">
     <link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
     <title>Contact | Code4All</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../vendor/bootstrap-icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../vendor/poppins/poppins.css">
     <link rel="stylesheet" href="../style/sidebar.css">
     <link rel="stylesheet" href="../style/mainstyles.css">
     <link rel="stylesheet" href="../style/contact.css">
@@ -113,6 +111,7 @@
                                 <textarea name="message" class="form-control" rows="6" placeholder="What would you like to tell me..." required></textarea>
                             </div>
                             <input type="checkbox" name="botcheck" class="d-none" style="display:none;" tabindex="-1" autocomplete="off">
+                            <p class="small text-muted mb-3">I will use the data from this form only to reply to your message. See the <a href="privacy.html">privacy policy</a> for details.</p>
                             <button type="submit" class="btn btn-dark btn-lg">Send message</button>
                             <div id="form-status" role="status" aria-live="polite"></div>
                         </form>
@@ -128,14 +127,15 @@
                 <div class="mt-2">
                     <button type="button" class="btn btn-outline-dark btn-sm rounded-pill phone-reveal-btn" data-tel="817 539 727 84+" aria-label="Show phone number"><i class="bi-telephone me-1"></i>Show phone number</button>
                 </div>
+                <div class="my-2 small"><a href="privacy.html" class="text-muted">Privacy policy</a></div>
                 Copyright © 2023-2026 Kamil Szwaradzki
                 </footer>
             </div>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="../vendor/popper/popper.min.js"></script>
+    <script src="../vendor/bootstrap/bootstrap.min.js"></script>
     <script src="../js/app.js"></script>
 </body>
 </html>
